@@ -21,6 +21,6 @@ def thread_queue():
 
 if __name__ == "__main__":
     q.put([print_data,("Hello! ","How are you?")])#tuple
-    q.put([print_data,{"data":"See ","data2":"you!")#dict
+    q.put([print_data,{"data":"See ","data2":"you!"}])#dict
     BetterQueue.start(thread_queue)
 ```
